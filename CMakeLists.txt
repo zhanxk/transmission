@@ -45,7 +45,7 @@ set(TR_NAME ${PROJECT_NAME})
 #         "0" for stable, supported releases
 # these should be the only two lines you need to change
 set(TR_USER_AGENT_PREFIX "3.00+")
-set(TR_PEER_ID_PREFIX "-TR300Z-")
+set(TR_PEER_ID_PREFIX "-TR3000-")
 
 string(REGEX MATCH "^([0-9]+)\\.([0-9]+).*" TR_VERSION "${TR_USER_AGENT_PREFIX}")
 set(TR_VERSION_MAJOR "${CMAKE_MATCH_1}")
